@@ -4,14 +4,67 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="vidu0108">
       <link rel="shortcut icon" href="images/favicon.png">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="index.css">
       
+ 
       <title>Musical World</title>
+      
   </head>
   <body>
-      <!-- Your code goes here -->
-      <script src="script.js"></script>
+    
+             
+    <div id="container">
+       
+        <img class="logo" src="./assets/icons/Layer%201.svg" >
+      
+        <div class="card" >
+          <p>
+              THERE IS ONLY ONE WAY <br>&nbsp;&nbsp;&nbsp;&nbsp; TO EXPLORE OUR<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MUSIC WORLD.
+          </p>
+
+            <img class="headphn" src="./assets\images\Bitmap-removebg-preview.png" > 
+        </div> 
+        
+       <div class="menu" id="menu" >
+            <a href="">
+                <img src="./assets/icons/Vector.svg" height="6px" width="6px">
+            </a>  
+            <a href="">
+                <img src="./assets/icons/fluent_device-eq-24-filled.svg" height="6px" width="6px">
+            </a>             
+            <a href="">
+                <img src="./assets/icons/akar-icons_watch-device.svg" height="6px" width="6px">
+            </a>
+            <a href="">
+                <img src="./assets/icons/flat-color-icons_about.svg" height="6px" width="6px">
+            </a>                      
+            <a href="">
+                <img  src="./assets/icons/bx_bxs-contact.svg" height="6px" width="6px">
+            </a>
+            
+        </div>
+        <div class="toggle" id="toggle" onclick="menu-expand()">
+            <img class="mouse" src="./assets/icons/Union.svg" >
+        </div>
+    </div> 
+     
+    <script>
+        var i = 0;
+        function expand()
+        {
+            if(i ==0)
+            {
+                document.getElementById("menu").style.transform ="scale(5)";
+                i = 1;
+            }
+            else
+            {
+                document.getElementById("menu").style.transform ="translate(0px, 98px)";
+                i = 0;
+            }
+        }
+        
+    </script>  
   </body>
   </html>
