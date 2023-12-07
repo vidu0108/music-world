@@ -1,0 +1,269 @@
+@media(max-width:2000px)
+{
+body {
+    background-image: url('./assets/icons/iMac%20-%206.svg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+    background-repeat: no-repeat;
+  }
+
+p{
+    font-size: 55px;
+   color: white;
+   margin-top: 86px;
+   margin-left: 75px;
+}
+  
+
+.logo{
+  margin-top:60px;
+  margin-left: 80px;
+ }
+
+ 
+.headphn{
+     float: right;
+     margin-right: 240px;
+     margin-top: -274px;
+                 
+ }
+  
+ .card {
+     
+  
+      align-items: center;
+  }
+  .mouse{
+    height: 20px;
+    width: 20px;
+    padding: 42px;
+  }
+  
+   
+
+.toggle{
+    background: #BE274E;
+    width: 7.5em;
+    height: 7.5em;
+    position: fixed;
+    box-shadow: 0px 0px 0px 0px transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 623px;
+    margin-top: 442px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translate(0px, 100px);
+    /* z-index: -2; */
+    transition: .3s;
+    z-index: 0;
+}
+
+
+
+.menu{
+    background: transparent;
+    border:.99em solid #BE274E;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 50%;
+    transform: translate(0px, 98px);
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left:  653px;
+    margin-top: 442px;
+    /* z-index: -2; */
+    transition: .7s;
+    /* box-shadow: -2px -2px 5px rgba(255,255,255,1),
+                 3px 3px 5px rgba(0,0,0,0.1) ; */
+}
+
+
+
+.menu a{
+    display: flex;
+    position: absolute;
+    font-size: 0.8em;
+    color: #222;
+    transition: .4s;
+    text-decoration: none;
+    
+}
+
+
+.menu i{
+    font-size: 0.1em;
+}
+
+.menu a:nth-child(1){
+    top: -11px;
+    left: 14px;
+}
+
+.menu a:nth-child(2){
+    top:1px;
+    left: 35px;
+}
+
+.menu a:nth-child(3){
+    top: 2px;
+    left: -8px;
+}
+
+
+.menu a:nth-child(4){
+    top: 28px;
+    left: -8px;
+}
+
+.menu a:nth-child(5){
+    top: 28px;
+    left: 35px;
+}
+
+.menu a:hover{
+    color: #ffa500;
+    transition: .2s;
+    transform: scale(1);
+}
+}
+
+@media(max-width:570px)
+{
+    body{
+        background-image: url('C:/Users/vidup/OneDrive/Desktop/musical-world/assets/images/Untitled.svg');
+        background-size:cover;
+       
+    }
+    p{
+        font-size: 25px;
+       color: white;
+      margin-top: 17px;
+       margin-left: 43px;
+       height: 84px;
+       width: 305px;
+    }
+    .headphn{
+       height: 220px;
+       width: 180px;
+       margin-top: 50px;
+    margin-right: 192px;
+    }
+.logo{
+  margin-top:30px;
+  margin-left: 33px;
+ }
+ 
+ .card {
+    display: block; 
+    align-items: center;
+  }
+  .mouse{
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+  }
+  
+   
+
+.toggle{
+    background: #BE274E;
+    width: 4.5em;
+    height: 4.5em;
+    position: fixed;
+    box-shadow: 0px 0px 0px 0px transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 169px;
+    margin-top: 619px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translate(0px, 100px);
+    /* z-index: -2; */
+    transition: .3s;
+    z-index: 0;
+}
+
+
+
+.menu{
+    background: transparent;
+    border:.9em solid #BE274E;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 50%;
+    transform: translate(0px, 98px);
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 169px;
+    margin-top:619px;   
+    /* z-index: -2; */
+    transition: .7s;
+    /* box-shadow: -2px -2px 5px rgba(255,255,255,1),
+                 3px 3px 5px rgba(0,0,0,0.1) ; */
+}
+
+
+
+.menu a{
+    display: flex;
+    position: absolute;
+    font-size: 0.8em;
+    color: #222;
+    transition: .4s;
+    text-decoration: none;
+    
+}
+
+
+.menu i{
+    font-size: 0.1em;
+}
+
+.menu a:nth-child(1){
+    top: -11px;
+    left: 14px;
+}
+
+.menu a:nth-child(2){
+    top:1px;
+    left: 35px;
+}
+
+.menu a:nth-child(3){
+    top: 2px;
+    left: -8px;
+}
+
+
+.menu a:nth-child(4){
+    top: 28px;
+    left: -8px;
+}
+
+.menu a:nth-child(5){
+    top: 28px;
+    left: 35px;
+}
+
+.menu a:hover{
+    color: #ffa500;
+    transition: .2s;
+    transform: scale(1);
+}
+
+}
